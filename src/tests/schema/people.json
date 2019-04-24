@@ -1,0 +1,62 @@
+{
+    "definitions": {},
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "array",
+    "title": "The Root Schema",
+    "items": {
+      "type": "object",
+      "title": "The Items Schema",
+      "required": [
+        "country",
+        "email",
+        "firstName",
+        "gender",
+        "id",
+        "lastName",
+        "state"
+      ],
+      "properties": {
+        "country": {
+          "type": "string",
+          "title": "The Country Schema",
+          "default": ""
+        },
+        "email": {
+          "type": "string",
+          "title": "The Email Schema",
+          "default": "",
+          "pattern": "^(.*)$"
+        },
+        "firstName": {
+          "type": "string",
+          "title": "The Firstname Schema",
+          "default": "",
+          "pattern": "^(.*)$"
+        },
+        "gender": {
+          "type": "string",
+          "title": "The Gender Schema",
+          "default": "",
+          "pattern": "^(.*)$"
+        },
+        "id": {
+          "type": "integer",
+          "title": "The Id Schema",
+          "default": 0
+        },
+        "lastName": {
+          "type": "string",
+          "title": "The Lastname Schema",
+          "default": "",
+          "pattern": "^(.*)$"
+        },
+        "state": {
+          "type": "string",
+          "title": "The State Schema",
+          "default": "",
+          "pattern": "^(.*)$"
+        }
+      }
+    }
+  }
+  
